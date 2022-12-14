@@ -1,0 +1,8 @@
+D:/2048/build/CMakeFiles/2048.dir
+D:/2048/build/CMakeFiles/edit_cache.dir
+D:/2048/build/CMakeFiles/rebuild_cache.dir
+D:/2048/build/CMakeFiles/list_install_components.dir
+D:/2048/build/CMakeFiles/install.dir
+D:/2048/build/CMakeFiles/install/local.dir
+D:/2048/build/CMakeFiles/install/strip.dir
+D:/2048/build/CMakeFiles/2048_autogen.dir

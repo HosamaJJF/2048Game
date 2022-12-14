@@ -1,0 +1,22 @@
+[
+{
+  "directory": "D:/2048/build",
+  "command": "C:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/2048.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\2048.dir\\2048_autogen\\mocs_compilation.cpp.obj -c D:\\2048\\build\\2048_autogen\\mocs_compilation.cpp",
+  "file": "D:/2048/build/2048_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "D:/2048/build",
+  "command": "C:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/2048.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\2048.dir\\main.cpp.obj -c D:\\2048\\main.cpp",
+  "file": "D:/2048/main.cpp"
+},
+{
+  "directory": "D:/2048/build",
+  "command": "C:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/2048.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\2048.dir\\mainwindow.cpp.obj -c D:\\2048\\mainwindow.cpp",
+  "file": "D:/2048/mainwindow.cpp"
+},
+{
+  "directory": "D:/2048/build",
+  "command": "C:\\Qt\\Tools\\mingw1120_64\\bin\\g++.exe -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64 @CMakeFiles/2048.dir/includes_CXX.rsp -g -std=gnu++17 -o CMakeFiles\\2048.dir\\2048_autogen\\EWIEGA46WW\\qrc_logo.cpp.obj -c D:\\2048\\build\\2048_autogen\\EWIEGA46WW\\qrc_logo.cpp",
+  "file": "D:/2048/build/2048_autogen/EWIEGA46WW/qrc_logo.cpp"
+}
+]

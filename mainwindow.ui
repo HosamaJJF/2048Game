@@ -1,0 +1,349 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>424</width>
+    <height>522</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>2048</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="startg">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>20</y>
+      <width>111</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>开始/重置</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="score">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>20</y>
+      <width>31</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="autoFillBackground">
+     <bool>false</bool>
+    </property>
+    <property name="text">
+     <string>分数：</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="g11">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>120</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="g12">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>120</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="g13">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>120</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="g14">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>120</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="g23">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>180</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="g21">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>180</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="g24">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>180</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="g22">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>180</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="g33">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>240</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="g31">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>240</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="g34">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>240</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="g32">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>240</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="g44">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>300</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="g41">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>300</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="g42">
+    <property name="geometry">
+     <rect>
+      <x>150</x>
+      <y>300</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="g43">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>300</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="description">
+    <property name="geometry">
+     <rect>
+      <x>40</x>
+      <y>390</y>
+      <width>341</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>按W(上)S(下)A(左)D(右)让相同数字的方格合并，得到2048！</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="scorenum">
+    <property name="geometry">
+     <rect>
+      <x>255</x>
+      <y>20</y>
+      <width>131</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>424</width>
+     <height>22</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

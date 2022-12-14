@@ -1,0 +1,19 @@
+{
+	"BUILD_DIR" : "D:/2048/build/2048_autogen",
+	"CMAKE_BINARY_DIR" : "D:/2048/build",
+	"CMAKE_CURRENT_BINARY_DIR" : "D:/2048/build",
+	"CMAKE_CURRENT_SOURCE_DIR" : "D:/2048",
+	"CMAKE_SOURCE_DIR" : "D:/2048",
+	"INCLUDE_DIR" : "D:/2048/build/2048_autogen/include",
+	"INPUTS" : [ "D:/2048/myico.ico" ],
+	"LOCK_FILE" : "D:/2048/build/CMakeFiles/2048_autogen.dir/AutoRcc_logo_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "logo" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_logo.cpp",
+	"RCC_EXECUTABLE" : "C:/Qt/6.4.1/mingw_64/./bin/rcc.exe",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "D:/2048/build/CMakeFiles/2048_autogen.dir/AutoRcc_logo_EWIEGA46WW_Used.txt",
+	"SOURCE" : "D:/2048/logo.qrc",
+	"VERBOSITY" : 0
+}

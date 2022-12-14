@@ -1,0 +1,3 @@
+# Hashes of file build rules.
+517e53fad43b27485579d7d3658dbfc4 2048_autogen/EWIEGA46WW/qrc_logo.cpp
+219b3efcb83f3282567d86f745b2d325 CMakeFiles/2048_autogen
