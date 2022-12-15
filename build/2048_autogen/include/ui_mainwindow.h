@@ -149,7 +149,7 @@ public:
 
     void retranslateUi(QMainWindow *MainWindow)
     {
-        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "2048", nullptr));
+        MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "2048 By\351\207\221\344\277\212\345\270\206\343\200\201\345\274\240\346\245\240\343\200\201\350\264\276\345\245\207\345\263\260\343\200\201\351\231\210\344\275\263\350\264\244", nullptr));
         startg->setText(QCoreApplication::translate("MainWindow", "\345\274\200\345\247\213/\351\207\215\347\275\256", nullptr));
         score->setText(QCoreApplication::translate("MainWindow", "\345\210\206\346\225\260\357\274\232", nullptr));
         g11->setText(QString());
