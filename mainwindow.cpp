@@ -26,7 +26,7 @@ MainWindow::MainWindow(QWidget *parent)
     game[4][2]=ui->g42;
     game[4][3]=ui->g43;
     game[4][4]=ui->g44;
-    for(int i=1;i<=4;i++){  //次循环初始化棋盘颜色
+    for(int i=1;i<=4;i++){  //此循环初始化棋盘颜色
         for(int j=1;j<=4;j++){
             game[i][j]->setStyleSheet("QLabel{background:#828282;}");
         }
@@ -89,7 +89,7 @@ void MainWindow::paint(){   //此函数用于绘制棋盘
             else if(s[i][j]==2048){
                 game[i][j]->setStyleSheet("QLabel{background:#fe0000;}");
                 game[i][j]->setText("2048");
-                state=false;
+                state=false;    //玩家成功过关，游戏结束
                 ui->description->setText("你成功了！！");
             }
         }
@@ -123,7 +123,7 @@ void MainWindow::create(int m){  //此函数用于随机生成格子
     int randi,randj,randnum;
     randi=rand()%4+1;
     randj=rand()%4+1;
-    while(s[randi][randj]!=0){
+    while(s[randi][randj]!=0){  //确保方格是空方格
         randi=rand()%4+1;
         randj=rand()%4+1;
     }
@@ -168,7 +168,7 @@ void MainWindow::PressUp(){ //此函数控制方块（对应的数据）向上�
     for(int j=1;j<=4;j++){
         for(int i=1;i<=3;i++){
             for(int k=i+1;k<=4;k++){
-                if(s[k][j]){
+                if(s[k][j]){    //寻找逆方向上的第一个非空方格
                     if(s[i][j]==0){
                         s[i][j]=s[k][j];
                         s[k][j]=0;
@@ -295,10 +295,10 @@ void MainWindow::check(){   //此函数用于检测游戏失败
     int f=0;
     for(int i=1;i<=4;i++){
         for(int j=1;j<=4;j++){
-            if(s[i][j]==0)return;
+            if(s[i][j]==0)return;   //如果有空格则游戏一定未结束
         }
     }
-    for(int i=1;i<=3;i++){  //判断是否有可以合并的方格
+    for(int i=1;i<=3;i++){  //没有空格，判断是否有可以合并的方格
         for(int j=1;j<=3;j++){
             if(s[i][j]==s[i][j+1]){
                 f++;
